@@ -1,0 +1,93 @@
+/* General Styles */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #ABCDEF;
+}
+
+h1 {
+    color: darkblue;
+    text-align: center;
+}
+
+h2 {
+    color: #ABCDEF;
+    text-align: center;
+    background-color: darkblue;
+    padding: 5px;
+}
+
+p {
+    color: maroon;
+}
+
+
+/* Page styles */
+footer, header {
+    text-align: center;
+    padding: 10px;
+    background-image: url("../images/brushed_metal.jpg");
+}
+
+header {
+    border-bottom: 1px solid black;
+    border-radius: 32px 32px 0 0;
+}
+
+footer {
+    border-top: 1px solid black;
+    border-radius: 0 0 32px 32px;
+}
+
+section {
+    padding: 5px;
+}
+
+#content {
+    background-color: #FFF;
+    /* alternate way to center element */
+    margin: auto;
+    width: 90%;
+    border-radius: 32px;
+}
+
+
+/* Navigation bar */
+navbar ul {
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    background-color: #666;
+}
+
+navbar li {
+    float: left;
+}
+
+navbar li.last {
+    float: right;
+}
+
+navbar a {
+    color: #ABCDEF;
+    display: block;
+    padding: 8px;
+    margin: 2px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Drinks list */
+.title {
+    font-weight: bold;
+}
+
+#columns img {
+    float: left;
+    height: 50px;
+    padding: 0 20px 0 0;
+}
+
+#columns li {
+    list-style: none;
+}

@@ -1,2 +1,3 @@
 # lab-layout
-An example styled HTML file to modify to create a new layout. 
+
+A simple page about drinks with style to be modified to have a new layout. 
